@@ -4,51 +4,193 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - Archery Arena Game</title>
+
+<title>Archery Game Privacy Policy</title>
 
 <style>
+
+:root{
+    --primary:#ff6b35;
+    --secondary:#ff9f1c;
+    --dark:#1f2937;
+    --text:#4b5563;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    color: #333;
-    background: #fafafa;
+    font-family:Arial, Helvetica, sans-serif;
+    background:
+        linear-gradient(
+            135deg,
+            #f7f8fc 0%,
+            #eef2ff 50%,
+            #f8fafc 100%
+        );
+    color:var(--text);
+    line-height:1.8;
+    padding:40px 20px;
 }
 
 .container{
-    background: white;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:
+        0 10px 40px rgba(0,0,0,.08);
 }
 
-h1{
-    color: #222;
-    margin-bottom: 10px;
+.hero{
+    background:
+        linear-gradient(
+            135deg,
+            #ff6b35,
+            #ff9f1c
+        );
+
+    color:white;
+    text-align:center;
+    padding:60px 30px;
 }
 
-h2{
-    margin-top: 30px;
-    color: #444;
+.logo{
+    font-size:70px;
+    margin-bottom:15px;
 }
 
-p, li{
-    color: #555;
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
 }
 
 .updated{
-    color: #777;
-    margin-bottom: 30px;
+    opacity:.9;
+}
+
+.content{
+    padding:50px;
+}
+
+.toc{
+    background:#f8fafc;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:24px;
+    margin-bottom:40px;
+}
+
+.toc h3{
+    color:var(--dark);
+    margin-bottom:15px;
+}
+
+.toc ul{
+    list-style:none;
+}
+
+.toc li{
+    margin:10px 0;
+}
+
+.toc a{
+    text-decoration:none;
+    color:var(--primary);
+    font-weight:bold;
+}
+
+.toc a:hover{
+    color:var(--secondary);
+}
+
+section{
+    margin-bottom:35px;
+}
+
+.card{
+    background:white;
+    border:1px solid #ececec;
+    border-radius:16px;
+    padding:24px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    box-shadow:
+        0 10px 20px rgba(0,0,0,.08);
+}
+
+h2{
+    color:var(--dark);
+    margin-bottom:15px;
+    border-left:5px solid var(--primary);
+    padding-left:12px;
+}
+
+ul{
+    padding-left:25px;
+}
+
+li{
+    margin:8px 0;
+}
+
+.contact{
+    background:
+        linear-gradient(
+            135deg,
+            #fff4ef,
+            #fffaf5
+        );
+
+    border:1px solid #ffd6c7;
 }
 
 .footer{
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    color: #666;
+    text-align:center;
+    padding:25px;
+    border-top:1px solid #eee;
+    color:#6b7280;
 }
+
+.badge{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 18px;
+    border-radius:999px;
+    background:rgba(255,255,255,.2);
+    backdrop-filter:blur(8px);
+}
+
+@media(max-width:768px){
+
+    body{
+        padding:15px;
+    }
+
+    .content{
+        padding:25px;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .logo{
+        font-size:50px;
+    }
+}
+
 </style>
 
 </head>
@@ -56,107 +198,158 @@ p, li{
 
 <div class="container">
 
-<h1>Privacy Policy</h1>
+```
+<div class="hero">
 
-<p class="updated">
-Last Updated: June 2026
-</p>
+    <div class="logo">🏹</div>
 
-<p>
-Archery Game ("we", "our", or "us") respects your privacy.
-This Privacy Policy explains how information may be collected,
-used, and protected when you use our mobile game.
-</p>
+    <h1>Archery Game</h1>
 
-<h2>Information We Collect</h2>
+    <p class="updated">
+        Privacy Policy
+    </p>
 
-<p>
-Archery Game does not require user registration and does not
-collect personally identifiable information directly.
-</p>
+    <div class="badge">
+        Last Updated: June 2026
+    </div>
 
-<p>
-Depending on the services used in the application, third-party
-providers may collect limited information such as:
-</p>
+</div>
 
-<ul>
-<li>Device information</li>
-<li>Operating system version</li>
-<li>Advertising identifiers</li>
-<li>Crash reports</li>
-<li>Performance and analytics data</li>
-</ul>
+<div class="content">
 
-<h2>Advertising</h2>
+    <div class="toc">
 
-<p>
-The game may display advertisements through third-party
-advertising providers such as Google AdMob.
-These providers may use cookies, advertising IDs,
-or similar technologies to provide personalized or
-non-personalized advertisements.
-</p>
+        <h3>Contents</h3>
 
-<h2>Analytics</h2>
+        <ul>
+            <li><a href="#info">Information We Collect</a></li>
+            <li><a href="#ads">Advertising</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#children">Children's Privacy</a></li>
+            <li><a href="#security">Data Security</a></li>
+            <li><a href="#thirdparty">Third-Party Services</a></li>
+            <li><a href="#changes">Changes to This Policy</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
 
-<p>
-We may use analytics services to understand application
-performance and improve user experience.
-</p>
+    </div>
 
-<h2>Children's Privacy</h2>
+    <section id="info" class="card">
 
-<p>
-Archery Game is intended for a general audience.
-We do not knowingly collect personal information from children.
-If you believe that a child has provided personal information,
-please contact us so that appropriate action can be taken.
-</p>
+        <h2>Information We Collect</h2>
 
-<h2>Data Security</h2>
+        <p>
+            Archery Game does not require account registration and does not directly collect personally identifiable information.
+        </p>
 
-<p>
-We take reasonable measures to protect information processed
-through our services. However, no method of transmission or
-electronic storage is completely secure.
-</p>
+        <p>
+            Depending on the services integrated into the application, limited technical information may be collected:
+        </p>
 
-<h2>Third-Party Services</h2>
+        <ul>
+            <li>Device information</li>
+            <li>Operating system version</li>
+            <li>Advertising identifiers</li>
+            <li>Crash reports</li>
+            <li>Performance diagnostics</li>
+        </ul>
 
-<p>
-The application may use third-party services that have their
-own privacy policies, including:
-</p>
+    </section>
 
-<ul>
-<li>Google AdMob</li>
-<li>Google Play Services</li>
-<li>Firebase Analytics</li>
-<li>Firebase Crashlytics</li>
-</ul>
+    <section id="ads" class="card">
 
-<h2>Changes to This Policy</h2>
+        <h2>Advertising</h2>
 
-<p>
-We may update this Privacy Policy from time to time.
-Changes will be posted on this page with an updated revision date.
-</p>
+        <p>
+            Archery Game may display advertisements through third-party advertising networks such as Google AdMob.
+        </p>
 
-<h2>Contact Us</h2>
+        <p>
+            These services may use advertising identifiers and similar technologies to provide personalized or non-personalized ads.
+        </p>
 
-<p>
-If you have any questions regarding this Privacy Policy,
-please contact us at:
-</p>
+    </section>
 
-<p>
-Email: tungtd.997@gmail.com
-</p>
+    <section id="analytics" class="card">
+
+        <h2>Analytics</h2>
+
+        <p>
+            Analytics services may be used to understand application performance, identify bugs, and improve gameplay experience.
+        </p>
+
+    </section>
+
+    <section id="children" class="card">
+
+        <h2>Children's Privacy</h2>
+
+        <p>
+            We do not knowingly collect personal information from children.
+            If you believe that personal information has been provided by a child, please contact us so appropriate action can be taken.
+        </p>
+
+    </section>
+
+    <section id="security" class="card">
+
+        <h2>Data Security</h2>
+
+        <p>
+            We implement reasonable security measures to protect information processed through our services. However, no electronic transmission method is completely secure.
+        </p>
+
+    </section>
+
+    <section id="thirdparty" class="card">
+
+        <h2>Third-Party Services</h2>
+
+        <p>
+            The application may use third-party services including:
+        </p>
+
+        <ul>
+            <li>Google AdMob</li>
+            <li>Google Play Services</li>
+            <li>Firebase Analytics</li>
+            <li>Firebase Crashlytics</li>
+        </ul>
+
+    </section>
+
+    <section id="changes" class="card">
+
+        <h2>Changes to This Policy</h2>
+
+        <p>
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page along with a revised update date.
+        </p>
+
+    </section>
+
+    <section id="contact" class="card contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            If you have any questions regarding this Privacy Policy, please contact:
+        </p>
+
+        <p>
+            Email: tungtd.997@gmail.com
+        </p>
+
+    </section>
+
+</div>
 
 <div class="footer">
-© 2026 Archery Game. All rights reserved.
+
+    © 2026 Archery Game. All Rights Reserved.
+
 </div>
+```
 
 </div>
 
